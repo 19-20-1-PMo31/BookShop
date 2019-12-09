@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace BookShop.Data
-{
+{ //User's plate
     public class User:IdentityUser
     {
         public int? Age { get; set; }
